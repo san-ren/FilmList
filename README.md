@@ -19,7 +19,7 @@
 
 ### 难点
 
-- 中文显示为黑方块的问题可能与xhtml2pdf和ReportLab的字体处理机制有关
+- 中文显示为黑方块的问题可能与[xhtml2pdf](https://github.com/xhtml2pdf/xhtml2pdf)和ReportLab的字体处理机制有关
   - 从2017年的[一些 Unicode 字符的问题 · 问题 #345 · xhtml2pdf/xhtml2pdf --- Problems with some Unicode characters · Issue #345 · xhtml2pdf/xhtml2pdf](https://github.com/xhtml2pdf/xhtml2pdf/issues/345)
   - 到2025年的[问题 · xhtml2pdf/xhtml2pdf --- Issues · xhtml2pdf/xhtml2pdf](https://github.com/xhtml2pdf/xhtml2pdf/issues?q=is%3Aissue%20font)
   - 一个一直在维护的库是怎么放任一个问题将近十年
