@@ -16,6 +16,9 @@
 - [ ] 可选导出HTML或pdf
 
 
+### 更新记录
+
+- 重构：从 Tkinter + tkhtmlview 转移到 PySide6 + QWebEngineView
 
 
 
