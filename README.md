@@ -20,7 +20,7 @@
 
 - 重构：从 Tkinter + tkhtmlview 转移到 PySide6 + QWebEngineView
 
-
+- 中文显示为黑方块的问题可能与xhtml2pdf和ReportLab的字体处理机制有关
 
 
 
