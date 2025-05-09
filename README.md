@@ -30,9 +30,9 @@
   ![Archived](https://img.shields.io/badge/Archived-2022--11--22-red?style=flat)
 - 靠，换了WeasyPrint ，晚上11点多打开输出的pdf看到汉字还有点不习惯诶，毕竟累计二十个小时、自然时间只有2天但感官时间长达一周、历经十几个版本、输出几十次的pdf打开都是黑方块
   
--  Tkinter + ReportLab ---> Tkinter + ReportLab + tkhtmlview ---> Tkinter + ReportLab + xhtml2pdf + tkhtmlview --->  PySide6 + QWebEngineView + WeasyPrint
+-  Tkinter + ReportLab 🔜🔜🔜 Tkinter + ReportLab + tkhtmlview ➡️➡️➡️ Tkinter + ReportLab + xhtml2pdf + tkhtmlview 🏃‍♀️‍➡️🏃‍♂️‍➡️🏃‍➡️  PySide6 + QWebEngineView + WeasyPrint
 
-
+👉👉👉
 ### 更新记录
 
 - 重构：从 Tkinter + tkhtmlview 转移到 PySide6 + QWebEngineView
