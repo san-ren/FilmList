@@ -3,6 +3,29 @@
 > 本项目的初衷是用AI开发一个收藏影视作品的软件，使用最少的信息确定一个影视作品，就像通过哈希值确定一个文件。
 
 
+### *安装 WeasyPrint 及其依赖**
+
+WeasyPrint 依赖 Pango（文本布局）、Cairo（2D图形）、libffi、GDK-PixBuf（图片格式）等GTK相关的C库。
+
+- **Windows**:
+        
+    - **安装GTK+运行环境**
+        
+        - 下载并安装 MSYS2 ([https://www.msys2.org/](https://www.google.com/url?sa=E&q=https%3A%2F%2Fwww.msys2.org%2F))。安装完成后，打开 MSYS2 MinGW 64-bit (或 32-bit，取决于你的Python版本) 终端，然后运行命令安装依赖：
+            
+                  pacman -S mingw-w64-x86_64-gtk3 mingw-w64-x86_64-pango mingw-w64-x86_64-cairo mingw-w64-x86_64-gdk-pixbuf2 libffi
+
+          (如果是32位Python，将 x86\_64 替换为 i686)。
+            
+        - 将 MSYS2的 mingw64/bin (或 mingw32/bin) 目录添加到系统的 PATH 环境变量中
+            
+        - **或者**: 以前有些用户通过下载一个预编译的GTK3运行时包（例如从 [https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer](https://www.google.com/url?sa=E&q=https%3A%2F%2Fgithub.com%2Ftschoonj%2FGTK-for-Windows-Runtime-Environment-Installer) 或类似的来源），然后将其 bin 目录添加到PATH。请注意查找最新的、可靠的GTK运行时。
+            
+        
+    - 安装完C库依赖并配置好PATH后，再通过pip安装WeasyPrint:
+        
+          pip install WeasyPrint
+
 
 ### To Do
 - [x] 支持md
@@ -42,7 +65,7 @@
   - 一个一直在维护的库是怎么放任一个问题将近十年
   - 貌似是一个解决办法https://github.com/xhtml2pdf/xhtml2pdf/issues/792#issuecomment-2739895489
   
-**3. wkhtmltopdf**
+**3. PDFKit (wkhtmltopdf)**
 - [wkhtmltopdf (QtWebKit)](https://github.com/wkhtmltopdf/wkhtmltopdf)  [![Stars](https://img.shields.io/github/stars/wkhtmltopdf/wkhtmltopdf?style=flat)](https://github.com/wkhtmltopdf/wkhtmltopdf/stargazers)
   ![Archived](https://img.shields.io/badge/Archived-2022--11--22-red?style=flat)
 -  归档了，跳过
