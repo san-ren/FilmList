@@ -19,6 +19,11 @@
 - [ ] 选择不同的模板和css样式后，可实时预览
 
 
+### 引申
+- [ ] 若不加载nfo和海报，则变为 md 转 pdf ，再添加页边距、页眉页脚、css美化等自定义功能，由此可扩展出一个高度自定义的pdf生成器
+  - [ ] 调查是否已有如此功能定位的软件
+
+
 
 ### 变更路线
 `Tkinter + ReportLab` 🔜🔜🔜 `Tkinter + ReportLab + tkhtmlview` ➡️➡️➡️ `Tkinter + ReportLab + xhtml2pdf + tkhtmlview` 🏃‍♀️‍➡️🏃‍♂️‍➡️🏃‍➡️  `PySide6 + QWebEngineView + WeasyPrint`
